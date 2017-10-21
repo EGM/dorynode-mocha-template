@@ -1,0 +1,37 @@
+{
+  "name": "dorynode-mocha-template",
+  "version": "0.1.0",
+  "description": "Template for Dory Node (https://play.google.com/store/apps/details?id=io.tempage.dorynode) project, with mocha. ",
+  "main": "./dist/index-min.js",
+  "scripts": {
+  	 "docs":  "gulp documentation-readme-example",
+  	 "gulp": "gulp",
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EGM/dorynode-mocha-template.git"
+  },
+  "keywords": [
+    "dory",
+    "node",
+    "template"
+  ],
+  "author": "EGM",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EGM/dorynode-mocha-template/issues"
+  },
+  "homepage": "https://github.com/EGM/dorynode-mocha-template#readme",
+  "devDependencies": {
+    "documentation": "^5.3.3",
+    "gulp": "^3.9.1",
+    "gulp-cli": "^1.4.0",
+    "mocha": "^4.0.1",
+    "nyc": "^11.2.1",
+    "should": "^13.1.2",
+    "source-map-support": "^0.5.0",
+    "webpack": "^3.8.1",
+    "webpack-stream": "^4.0.0"
+  }
+}
